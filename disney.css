@@ -1,0 +1,64 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(68, 68, 68, 0);
+}
+
+li {
+  float: right
+
+  ;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgba(7, 49, 86, 0.625);
+}
+
+.active {
+  background-color: #35b0d553;
+}
+
+body {
+  color: whitesmoke;
+}
+
+h1 {
+  color: whitesmoke;
+}
+
+body {
+  background: url("scale.jfif") no-repeat center center/cover;
+  background-position: 0px 0px;
+  
+}
+
+.showcase-content h1 {
+font-weight: 700;
+font-size: 5.2rem;
+line-height: 1.1;
+margin: 0 0 2rem;
+}
+
+h1 {text-align: center;
+}
+
+.showcase-content h2 {
+  font-weight: 300;
+  font-size: 3rem;
+  line-height: 0.5;
+  margin: 0 0 1rem ;
+}
+h2 {text-align: center;
+}
+
+
